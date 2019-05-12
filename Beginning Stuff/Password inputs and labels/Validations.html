@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Using pop-up validation for forms</title>
+</head>
+
+<body>
+    <h1>Using validation for</h1>
+
+    <!-- This all just uses the 'required' tag at the end -->
+
+    <form action="https://www.wikipedia.org">
+        <!-- sends info to wikipedia -->
+        <label for="email">Username:</label>
+        <input id="email" name="Email" type="email" placeholder="Email@Email.com" required>
+
+        <!-- the label and id make it so if i click on text it goes to the form and data is linked -->
+        <label for="password">Password</label>
+        <input id="password" name="Password" type="password" placeholder="Password" required>
+
+        <input type="submit">
+    </form>
+</body>
+
+</html>
