@@ -1,0 +1,19 @@
+/* ------------------ Specificity ---------------- */
+
+/* type selectors */
+li {}
+
+li a {}
+
+li+a {}
+
+/* class, attribute and pseudo-class selectors */
+.hello {}
+
+input[type="text"] {}
+
+/* ID selectors */
+#hello {}
+
+
+/* Above selector are ordered from least to most specific */
