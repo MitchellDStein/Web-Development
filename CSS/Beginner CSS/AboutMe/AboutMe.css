@@ -1,0 +1,26 @@
+body{
+    /* background:url(https://banner2.kisspng.com/20180518/pek/kisspng-paper-wood-grain-drawing-pattern-5aff970ebe5050.4907189215266997907795.jpg); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    background: rgba(191, 177, 255, 0.465);
+}
+h1 {
+    color: rgb(100, 0, 100);
+    /* border: 5px;
+    border-color: rgb(16, 0, 238);
+    border-style: solid; */
+    border: 5px rgb(86, 24, 230) dashed;
+}
+
+h2 {
+    color: rgba(247, 0, 255, 0.637)
+}
+
+h4 {
+    color: blue;
+    background: rgb(34, 113, 165)
+}
+
+li {
+    color: #3fb8c8;
+}

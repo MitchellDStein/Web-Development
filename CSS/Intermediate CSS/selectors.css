@@ -1,0 +1,41 @@
+/* individual elements */
+li {
+    color: green;
+}
+
+/* class tags */
+.class {
+    background: cyan;
+}
+
+/* id tags */
+#id {
+    background: rgb(156, 27, 146);
+}
+
+/* select EVERYTHING */
+* {
+    border: 1px solid black;
+}
+
+/* Decendent Selector */
+li a {
+    color: blueviolet;
+}
+
+/* Adjacent Selector */
+/* for every ul directly under to h4 */
+h4+ul {
+    border: 4px solid red;
+}
+
+/* Attribute Selector */
+a[href="www.google.com"]{
+    background: gray;
+}
+
+/* nth of type */
+/* every 3rd li */
+li:nth-of-type(3){
+    background: yellow;
+}
