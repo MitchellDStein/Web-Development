@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Radio and boxes</title>
+</head>
+
+<body>
+    <h1>An excersie in different inputs!</h1>
+    <p>Do you prefer dogs or cats?</p>
+
+    <!-- the <form> makes it so you can click one OR the other radio buttons -->
+    <form action="">
+        <label for="dogs">Dogs: </label>
+        <input type="radio" name="petChoice" id="dogs" value="DOGS">
+
+        <label for="cats">Cats: </label>
+        <input type="radio" name="petChoice" id="cats" value="CATS">
+
+        <p>What's your favorite color?</p>
+        <select name="colorChoice" id="color">
+            <!-- the value is the object sent, the inside is just the visible selector -->
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="purple">Purple</option>
+        </select>
+
+        <textarea name="paragraph" id="paragraph" cols="30" rows="10" placeholder="Enter text here!"></textarea>
+
+        <button>Go!</button>
+    </form>
+    <p>Dont forget to look at the address bar once you hit go!</p>
+    <a href="../Page Examples/Index.html"><- Back to index like a baby</a>
+</body>
+
+</html>

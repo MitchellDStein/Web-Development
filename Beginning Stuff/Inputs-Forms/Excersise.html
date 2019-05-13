@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms Excersise</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+    <form action="">
+        <!-- name -->
+        <div id="name">
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" id="firstname" placeholder="John" required />
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Smith" required>
+        </div>
+
+        <!-- gender radio buttons -->
+        <div id="gender">
+            <label for="male">Male:</label>
+            <input type="radio" name="gender" id="male" required>
+            <label for="female">Female:</label>
+            <input type="radio" name="gender" id="female" required>
+            <label for="other">Other:</label>
+            <input type="radio" name="gender" id="other" required>
+        </div>
+
+        <!-- email -->
+        <div id="email">
+            <label for="email">Email:</label>
+            <input type="email" name="Email" id="email" placeholder="JohnSmith@Email.com" required>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Password" pattern=".{5,15}" required
+                title="Passwors must be between 5 and 15 characters!">
+        </div>
+
+
+        <!-- birthdate -->
+        <div id="birthdate">
+            <label for="month">Birthdate:</label>
+            <select name="month" id="month">
+                <option value="">Month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">I dont care anymore</option>
+            </select>
+            <select name="day" id="day">
+                <option value="">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="DC">Dont care</option>
+            </select>
+            <select name="year" id="year">
+                <option value="">Year</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+                <option value="2013">2013</option>
+                <option value="">Dont care</option>
+            </select>
+        </div>
+
+        <div id="agree">
+            <label for="agree">I agree with the terms and conditions</label>
+            <input type="checkbox" name="agree" id="agree" required>
+        </div>
+
+        <button type="submit">Go!</button>
+    </form>
+    <a href="../Page Examples/Index.html"><br><- Back to the Index</a>
+</body>
+
+</html>
