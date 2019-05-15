@@ -1,0 +1,35 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/3d/1e/f4/3d1ef44d3bbe288469b293b10669ce8e.jpg");
+}
+
+div {
+    width: 30%;
+    margin: 0.66%;
+    padding: 1%;
+    float: left;
+    background-image: url("https://cdn.shopify.com/s/files/1/0301/7465/products/Oak_Park_Ebony_12x12_1212FEB_Frame_f5bfca41-1357-49fc-9126-ba40f1ac2158.png?v=1521482588");
+    background-size: cover;
+    background-color: white;
+    text-align: center;
+}
+
+img {
+    margin: 15% 15%;
+    width: 70%;
+}
+
+img:hover {
+    margin: 0.5%;
+    width: 99%;
+}
+
+p {
+    margin: 1.66%;
+    font-size: 75px;
+    color: black;
+    font-family: 'Raleway',
+        sans-serif;
+    border-bottom: 3px solid rgba(128, 128, 128, 0.705);
+    width: 50%;
+    padding-bottom: 20px;
+}
